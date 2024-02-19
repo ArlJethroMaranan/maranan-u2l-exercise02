@@ -1,0 +1,332 @@
+/* CSS of the:
+    - whole body
+    - anchor tags (removing the underline for aesthetic purposes)
+    - the text class generalizing the font family fo all text-related tags
+    
+    The CSS utilizes FlexBox to maximize the pages space.*/
+body {
+    background-color: #121524;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: white;
+}
+
+/* CSS of HTML tag classes related to the header section*/
+.bg-img{
+    height: max-content;
+    width: 100%;
+    opacity: 40%;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.header-items{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.nav-container{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    height: 40px;
+    width: 110px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-img{
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.logo-name{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.nav-items{
+    display: flex;
+    height: 40px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-desc{
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.desc-text{
+    font-size: 40px;
+}
+
+.sec-title{
+    margin: 0px;
+}
+
+.sec-line{
+    width: 150px;
+}
+
+/* CSS of HTML tag classes related to the projects section */
+.projects{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.proj-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.proj-logo{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.proj-line{
+    width: 150px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 200px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.proj-desc{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.proj-desc-title{
+    text-align: center;
+    font-size: 15px;
+}
+
+.proj-desc-details{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.proj-desc-details-text{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* CSS of HTML tag classes related to the skills section */
+.skills-auto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skills{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-chart{
+    display: flex;
+    height: 320px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.soft-skills{
+    display: flex;
+    height: 300px;
+    width: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.hard-skills{
+    display: flex;
+    height: 300px;
+    width: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.skill-legend-box{
+    display: flex;
+    height: 17px;
+    width: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.skill-label-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.skill-label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+}
+
+.soft-skill-label-text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.hard-skill-label-text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+/* CSS of HTML tag classes related to the autobiography section */
+.autobiography{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.auto-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.auto-image{
+    display: flex;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.auto-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.auto-text-desc{
+    text-align: center;
+    font-size: 15px;
+}
+
+/* CSS of HTML tag classes related to the footer section */
+.footer-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.logo-img-footer{
+    width: 70px;
+    height: 70px;
+}
+
+.footer-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-address, .footer-contact-number, .footer-contact-email, .footer-facebook, .footer-instagram{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-address-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-address-desc, .footer-contact-number-desc, .footer-contact-email-desc, .footer-facebook-name, .footer-instagram-name{
+    margin: 0px;
+    padding-left: 15px;
+}
+
+.footer-icon-backtop{
+    width: 70px;
+    height: 60px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
